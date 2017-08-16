@@ -14,7 +14,7 @@ $(function(){
 });
 
 function desenharTabela(dados){
-	$(".js-books-table.body tr").remove();
+	$(".js-books-table-body tr").remove();
 	for(var i = 0; i< dados.length; i++){
 		desenhaLinha(dados[i]);
 	}
